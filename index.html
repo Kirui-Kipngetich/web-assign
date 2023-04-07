@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <table border="1"  width="100%" height="600px" style="background-color: burlywood;" >
+        <tr>
+            <td height="25px"><a href="#"><img src="images/kiburi.jpg.jpg" alt="arm" width="100%" height="50px"/></a></td>
+            <td height="25px"><a href="test.html">Home</a></td>
+
+            <td height="25px"><a href="#">
+              <div class="dropdown">
+                <button
+                class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href="#">a</a>
+                    <a href="#">b</a>
+                    <a href="#">c</a>
+                </div>
+            </div>
+            </a>
+          </a></td>
+
+            <td height="25px"><a href="#">
+              <div class="dropdown">
+                <button
+                class="dropbtn">Info</button>
+                <div class="dropdown-content">
+                   <option value=""><a href="#">1</a></option>
+                   <option value=""><a href="#">2</a></option>
+                    <option value=""></option><a href="#">3</a></option>
+                </div>
+            </div>
+            </a>
+            </a>.</td>
+            
+            <td height="25px"><a href="#">
+              <div class="dropdown">
+                <button
+                class="dropbtn">Contact Us</button>
+                <div class="dropdown-content">
+                    <a href="#">kipngetiche790@gmail.com</a>
+                    <a href="#">+254708089291</a>
+                </div>
+            </div>
+            </a>
+            </a></td>
+        </tr>
+        <tr>
+            <td colspan="5" width="100%" height="340px" style="background-color: rgb(245, 236, 236);">
+        <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/five.jpg" width="100%" height="340px"></div>
+              <div class="swiper-slide"><img src="images/three.jpg"width="100%" height="340px" ></div>
+              <div class="swiper-slide"><img src="images/four.jpg"width="100%" height="340px" ></div>
+              <div class="swiper-slide"><img src="images/one.jpg"width="100%" height="340px" ></div>
+              <div class="swiper-slide"><img src="images/two.jpg"width="100%" height="340px" ></div>
+              ...
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+    </tr>
+     <tr>
+        <td colspan="4.5" style="background-color: burlywood;">
+            <div class="article1"><article>
+                <h1><u>Premier League</u></h1>
+                <p>Based in England and consists of 20 teams,currently Arsenal lead the table but not for long<a href="Premier League.html">See more..</a></p>
+            </article>
+            <article>
+              <h1><u>LaLiga</u></h1>
+              <p float:right;>This is top tier league in Spain,currently Barcelona lead the table with only one goal scored at camp<a href="La Liga.html">See more..</a></p>
+          </article>
+          </div>
+
+            <div class="article2"><article>
+                <h1><u>Serie A</u></h1>
+                <p float:right;>Italys' top league,Napoli after several years of trophy drought are likely to go home with the league trophy thanks to Osimhen and Kvaratskelia<a href="Serie A.html">See more..</a></p>
+            </article>
+            <article>
+            <h1><u>Bundensliga</u></h1>
+            <p>This is Germanys' top league,currently Bayern Munchen lead the table wiht second and third place clubs having same points<a href="Bundensliga.html">See more..</a></p>
+        </article>
+          </div>
+
+        </td>
+        <td width="20%" style="background-color: burlywood;" height="80px">
+          <img src="images/champe.jpg" height="80px">
+           
+        </td>
+    </tr>
+</body>
+</html>
